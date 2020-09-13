@@ -1,3 +1,62 @@
 * {
   margin: 0;
 }
+body {
+  text-align: center;
+  background: hsl(0, 11%, 93%);
+}
+.app {
+  padding: 1rem;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+
+.msg__card {
+  /* margin: 4rem auto; */
+}
+
+.msg {
+  background: #fff;
+  color: #808080;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 65%;
+  border-radius: 5px;
+  box-shadow: 0px -2px 7px -10px rgba(0, 0, 0, 0.7);
+}
+
+.msg__user {
+  background: #0b81ff;
+  color: #fff;
+  margin-left: auto;
+  text-align: right;
+}
+.msg__text {
+  font-size: 15px;
+}
+
+.msg__name {
+  color: #dcdc;
+}
+
+.app__form {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+.app__form .app__formControl {
+  width: 500px;
+  margin-top: 4rem;
+  background: #ddd;
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app__input {
+  flex: 1;
+}
+.app__button {
+  flex: 0;
+}
